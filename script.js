@@ -109,7 +109,6 @@ function placeMark(cell, currentClass) {
 function swapTurns() {
     isPlayerOTurn = !isPlayerOTurn
     document.getElementById('text-change').innerHTML = `It is player ${isPlayerOTurn ? "O": "X"}`
-    console.log(isPlayerOTurn);
 }
 
 function setBoardHoverClass() {
